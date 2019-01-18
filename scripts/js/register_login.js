@@ -53,3 +53,9 @@ $(document).ready(function(){
         });
     });
 });
+window.onload=function(){
+  alert("Invalid Credentials");
+}
+function Alert(){
+  return confirm("Email Id and Contact no once used cannot be edited or resused.Kindly CHECK and CONFIRM the same.");
+}
